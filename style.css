@@ -5,7 +5,7 @@ body{
     padding: 0;
     margin: 0;
     background-color:#bde0bd;
-    font-family: "Figtree", sans-serif;
+    font-family: "poppins", sans-serif;
     overflow-x: hidden;
 }
 
@@ -108,7 +108,7 @@ body{
     color: white;
     padding-right: 75px;
     line-height: 25px;
-    margin: 210px 0;
+    margin: 75px 0 180px;
 
     h1{
         font-size: 60px;
@@ -145,9 +145,140 @@ body{
 }
 
 .feat{
-    margin-right: 20px;
-    margin-bottom: 20px;
+    margin: 1%;
+    margin-left: 30%;
+    padding:1%;
+    background-color: white;
+    border-radius: 30px;
+    width: 60%;
+    justify-content: space-around;
 }
+
+.card{
+    --bs-card-spacer-y: 0;
+    border: none;
+    width: 100%;
+    background-color: transparent;
+}
+
+.card-col{
+    width: 33.33%;
+}
+
+.folder-green{
+    background-image: url(./Resources/greenfolder.png);
+    background-size: contain;
+    background-position:top center;
+    background-repeat: no-repeat; 
+}
+
+.folder-blue{
+    background-image: url(./Resources/bluefolder.png);
+    background-size: contain;
+    background-position:top center;
+    background-repeat: no-repeat;
+}
+
+.folder-yellow{
+    background-image: url(./Resources/yellowfolder.png);
+    background-size: contain;
+    background-position:top center;
+    background-repeat: no-repeat;
+}
+
 .card-body{
-    height: 300px;
+    height: 230px;
+    padding: 0;
+}
+
+.tam-card{
+    margin-top: -190px;
+    margin-left: 80%;
+    width: 150px;
+    height: 165px;
+}
+
+.tamcard-fill{
+    height: 1px;
+}
+
+.card-title{
+    font-family: "poppins", sans-serif;
+    margin: 45% 0;
+    text-align: center;
+    color: black;
+    background-color: white;
+    padding: 3% 0;
+}
+
+.apply{
+    margin: 50px 0;
+    text-align: center;
+    font-family: "poppins", sans-serif;
+    h1{
+        font-size: 60px;
+        font-weight: bold;
+    }
+    p{
+        margin: 10px 0 30px;
+        font-style: italic;
+        font-size: larger;
+    }
+
+    a{
+        text-decoration: none;
+        color: black;
+        font-size: larger;
+        font-weight: bold;
+        padding: 10px 30px;
+        background-color: gold;
+        border-radius: 10px;
+    }
+}
+
+.happen{
+    display: flex;
+    flex-direction: column;
+    background-color: #0B3612;
+    padding-bottom: 10px;
+    h1{
+        padding: 20px 0;
+        margin-left: 40px;
+        color: #bde0bd;
+    }
+
+    .card-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .card{
+        width: 350px;
+        height: 350px;
+        background-color: white;
+        margin: 20px;
+    }
+}
+
+footer{
+    padding: 30px 50px 20px;
+    ul{
+       list-style-type: none;
+       display: flex;
+       padding: 0;
+
+       li:first-child{
+        margin-left: 0;
+       }
+    }
+
+    li{
+        margin: 0 5px 0 5px;
+    }
+
+    a{
+        text-decoration: none;
+        color: black;
+    }
 }
