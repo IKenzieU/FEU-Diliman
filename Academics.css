@@ -1,0 +1,83 @@
+body {
+    background-color: #ffffff;
+}
+
+header{
+    background-color: #0c452d;
+}
+
+.title{
+    padding: 5%;
+    background-color: green;
+    background-image: url(./Resources/academics.jpg);
+    background-size: cover;
+    background-blend-mode: multiply;
+    filter: grayscale(50%);
+    h1{
+        font-size: 60px;
+        text-align: center;
+        font-weight: bold;
+        color: white;
+    }
+
+}
+
+.acad{
+    display: flex;
+    margin: 20px 0;
+}
+
+.acad .card{
+    width: 400px;
+    height: 700px;
+    margin: 1%;
+    border: solid 5px #0c452d;
+    border-radius: 15px;
+    color: #0c452d;
+    transition: 0.5s;
+
+    .card-header{
+        font-size: large;
+        text-align: center;
+        transition: 0.5s;
+        b{
+            font-size: larger;
+        }
+
+    }
+
+    .card-title{
+        margin: 0;
+    }
+
+    .card-body{
+        padding: 10px;
+        opacity: 1;
+        
+    }
+
+    .card-text{
+        text-align: justify;
+    }
+}
+
+footer{
+    background-color: #0c452d;
+
+    li, h1, p{
+        color: #bde0bd;
+    }
+
+    li a{
+        color:#bde0bd;
+    }
+}
+
+.acad .card:hover{
+    border-color: gold;
+    box-shadow: 0 0 15px gold;
+
+    .card-header{
+        color: goldenrod;
+    }
+}
