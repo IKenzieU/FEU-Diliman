@@ -16,7 +16,7 @@ header{
     color: white;
     font-weight: bold;
     margin-top: -2px;
-    background-image: url("https://feudiliman.edu.ph/feudiliman/assets/img/academics/ccsma_header_photo.jpg");
+    background-image: url("./Resources/compsci.png");
     background-color: green;
     background-size: cover;
     background-blend-mode: multiply;
