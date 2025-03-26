@@ -1,0 +1,96 @@
+header{
+    background-color: #0B3612;
+}
+
+.title{
+    padding: 5%;
+    margin-top: -2px;
+    background-color: green;
+    background-image: url(./Resources/academics.jpg);
+    background-size: cover;
+    background-blend-mode: multiply;
+    filter: grayscale(50%);
+    h1{
+        font-size: 60px;
+        text-align: center;
+        font-weight: bold;
+        color: white;
+    }
+}
+
+
+.row{
+    align-items: center;
+    padding: 20px;
+}
+
+#ques{
+    width:30%;
+    height: auto;
+}
+
+.contact-info{
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    h3{
+        font-weight: bold;
+    }
+}
+
+.contact-form{
+    background-color: rgb(202, 243, 202);
+    padding: 30px 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px #0B3612;
+    h3{
+        font-weight: bold;
+        text-align: center;
+    }
+
+    label{
+        padding: 10px;
+    }
+
+    button{
+        margin-top: 20px;
+    }
+
+    textarea.form-control{
+        min-height: 250px;
+    }
+
+}
+
+footer{
+    background-color: #0B3612;
+
+    li, h1, p{
+        color: #bde0bd;
+    }
+
+    li a{
+        color:#bde0bd;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 1024px){
+    iframe{
+        width: 270px;
+    }
+    .contact-form{
+        textarea.form-control{
+            min-height: 340px;
+        }
+    }
+
+    .contact-info{
+        h3{
+            font-size: 24px;
+            
+        }
+        p{
+            font-size: 14px;
+        }
+    }
+}

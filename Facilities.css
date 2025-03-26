@@ -6,7 +6,7 @@ body {
 }
 
 header{
-    background-color: #0c452d;
+    background-color: #0B3612;
 }
 
 .facilities-header {
@@ -15,6 +15,7 @@ header{
     font-size: 60px;
     color: white;
     font-weight: bold;
+    margin-top: -2px;
     background-image: url("https://feudiliman.edu.ph/feudiliman/assets/img/academics/ccsma_header_photo.jpg");
     background-color: green;
     background-size: cover;
@@ -23,7 +24,7 @@ header{
 }
 
 .green-box {
-    background-color: #0c452d;
+    background-color: #0B3612;
     padding: 20px;
     border-radius: 10px;
     margin-bottom: 20px;
@@ -82,7 +83,7 @@ header{
 }
 
 footer{
-    background-color: #0c452d;
+    background-color: #0B3612;
 
     li, h1, p{
         color: #bde0bd;
@@ -101,21 +102,28 @@ footer{
     100% { transform: translateX(0%); }
 }
 
-[id^="comp-slider"], [id^="game-slider"], [id^="mac-slider"] {
+[id^="draw-slider"], [id^="game-slider"], [id^="mac-slider"] {
     background-position: center;
 }
 
-#comp-slider-1 { background-image: url('computer_lab_1.jpg'); }
-#comp-slider-2 { background-image: url('computer_lab_2.jpg'); }
-#comp-slider-3 { background-image: url('computer_lab_3.jpg'); }
-#comp-slider-4 { background-image: url('computer_lab_4.jpg'); }
-
-#game-slider-1 { background-image: url('computer_lab_1.jpg'); }
-#game-slider-2 { background-image: url('computer_lab_1.jpg'); }
-#game-slider-3 { background-image: url('computer_lab_1.jpg'); }
-#game-slider-4 { background-image: url('computer_lab_1.jpg'); }
+#game-slider-1 { background-image: url('https://scontent.fmnl30-1.fna.fbcdn.net/v/t39.30808-6/481897017_1075104177989772_615396719508613614_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeEqiz8vcgGZm0TV5kniJUNhN0bIbKKjyRU3RshsoqPJFc5dzS0Ro8jCEONQ8uKCBlRWY9vKssibAhaZtivzvOkS&_nc_ohc=AsNoicsLkmQQ7kNvgFjv8st&_nc_oc=Adkic2xZNV3wCFiMNKvJXC_Qf143zdJlwKugfxScyw8SwVNxZkBEnubAq5I5WskeNmU&_nc_zt=23&_nc_ht=scontent.fmnl30-1.fna&_nc_gid=8Km1VeeVteuYKJPxaJoXow&oh=00_AYG9RrFvCEvIik5NiqXiyp6UCoDAQeuMvLcoJKxG2oENsw&oe=67E89034'); }
+#game-slider-2 { background-image: url('https://scontent.fmnl30-1.fna.fbcdn.net/v/t39.30808-6/481677255_1075104514656405_3420278172103627795_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeGRydVYu5alqrozRTcyORZmTz6EnYrCYphPPoSdisJimPqYRrTSdKbDKb-j7rEuWd14JCorHL3nnw1uRGj_K7O6&_nc_ohc=CIap3QeaqzwQ7kNvgFEYDUv&_nc_oc=AdnY1tcS5JdvcdN6rgzkqvoE18_YetUGzX7y3E3fVyk1gq7Sbr2NVuSyYnZu1QyuRr8&_nc_zt=23&_nc_ht=scontent.fmnl30-1.fna&_nc_gid=RVUBNSAevPyiR9Ctp9DI1g&oh=00_AYGPhrc58Z2wIBdYvh7_cKl4Dw_IRI0mJJ48lyx8JEiygw&oe=67E8AF2E'); }
+#game-slider-3 { background-image: url('https://scontent.fmnl30-1.fna.fbcdn.net/v/t39.30808-6/483062433_1075104161323107_1419141987902912353_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeH5g7lsovTnfF7mYTg7BS6oOuNb9LekPQE641v0t6Q9Aa-YQXLtJruZOhfqCmUulZn_y57nS6ctSUZamJJNrud-&_nc_ohc=2w_ILPS8fpIQ7kNvgFGu_aM&_nc_oc=Adk1ti0OcGbhr5JMBQzfHEekZJww5YSwgYU_1r37TeIZsD3q2atfD9RrjBv3HEWBARE&_nc_zt=23&_nc_ht=scontent.fmnl30-1.fna&_nc_gid=WGe6Mzv4mSpPzbZPtaiWfw&oh=00_AYHjj0ZMb_ZJR7shEchLFHYBsNRGWI3pAhwThquEltqW8A&oe=67E89925'); }
+#game-slider-4 { background-image: url('https://scontent.fmnl30-2.fna.fbcdn.net/v/t39.30808-6/481150876_1145689100893662_8176577153373099294_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=f727a1&_nc_eui2=AeEJvbhPZEZhOOFmtMdxj6jVYthTSMgX_Fti2FNIyBf8W0cwdwdl8FidEbqnuysv-CKOu1DlGmuRGGJXjLxXVgs1&_nc_ohc=kCHpRFdjf1YQ7kNvgG6QFVr&_nc_oc=AdkSpyLfCG38PK3vI_z4BvRfB3aXk3gzvcA30XfUVJlFURgZkJAMoXI5zPrT9WJgFpI&_nc_zt=23&_nc_ht=scontent.fmnl30-2.fna&_nc_gid=-Daqz2jJEZTHq9AAY_vTWw&oh=00_AYFq8RgCXhkBkJ6GzLVcZ3CDeSGJRTakd7AGj9O7RpO9bg&oe=67E89CF2'); }
 
 #mac-slider-1 { background-image: url('https://scontent.fmnl17-6.fna.fbcdn.net/v/t39.30808-6/405249814_758961462937380_5880784944781625181_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_ohc=_Yzt8-SkjhsQ7kNvgEzWOg6&_nc_oc=AdnPXkwhZgEV8m51W55wqcQkJjUiptcGnWPyS5bsX-jJZ7zfw1y2s-lBOKttcQ55TG8&_nc_zt=23&_nc_ht=scontent.fmnl17-6.fna&_nc_gid=CG4F1XDxv6IfalP8lQc86g&oh=00_AYHPLEbDBlLHmbJHQsztCc-OQf1CMysAC0lE6mNG6YKYZA&oe=67E1CE50'); }
 #mac-slider-2 { background-image: url('https://scontent.fmnl17-6.fna.fbcdn.net/v/t39.30808-6/405207413_758961499604043_3965328924336269063_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_ohc=LUI-X0nBiX0Q7kNvgEtLDrD&_nc_oc=Adl5N8jH363yNgQwX4Y0tc6_1Thwkbh2nLeXNXWxm6Y7UL9Seo4yskdcZX5_onCJ1Bk&_nc_zt=23&_nc_ht=scontent.fmnl17-6.fna&_nc_gid=Y1UnJH7_BHT338kkIMoY-A&oh=00_AYF5UMFEM_fslIBtXFjqRsIKGCshKUdMQpHY8Q6TClaEsA&oe=67E1CB34'); }
 #mac-slider-3 { background-image: url('https://scontent.fmnl17-5.fna.fbcdn.net/v/t39.30808-6/405213790_758961446270715_3625618661034177430_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_ohc=kg2qC-NAM_oQ7kNvgHNPTVp&_nc_oc=AdldsSfdFNzLOBS6armf3c17a655AOcgtiglP7VofwJ4yZubmXdMVCaQFDWyXzfgcPA&_nc_zt=23&_nc_ht=scontent.fmnl17-5.fna&_nc_gid=HdGYxPbGOueb7OfIb1YpmQ&oh=00_AYHAY_BjnAZmRTRHb8HmOfTpderpdr40JpBYUNjBBwjzCQ&oe=67E1EBA4'); }
 #mac-slider-4 { background-image: url('https://scontent.fmnl17-5.fna.fbcdn.net/v/t39.30808-6/480837304_1067829222050601_5086672561876492908_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=127cfc&_nc_ohc=HDC6E0H6094Q7kNvgGdxENL&_nc_oc=AdlT9488Z3pnbdEjmSbGZgH-u99lKDAzlP0CxLf0G1gACOtXmiC00fJkqDWMy_3HCfQ&_nc_zt=23&_nc_ht=scontent.fmnl17-5.fna&_nc_gid=wmmd7FaCBwWwf3TUKrCARw&oh=00_AYFJAimSF6TfCMoMO-H3G0XpD-piPPmq5pRG482q0RD6DQ&oe=67E1E77C'); }
+
+#draw-slider-1 { background-image: url('https://scontent.fmnl30-2.fna.fbcdn.net/v/t39.30808-6/481277679_1065003102333213_5038823127406056898_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeHXShw9RdneNC48Ehs9-fL9xMfMCrrAhBzEx8wKusCEHECSL7o9-iwJfqGwlWSJ4b2VDT0E8281gXdTkfw3cdb8&_nc_ohc=kaPGzJKbeewQ7kNvgGL21mn&_nc_oc=AdnTRPtRSrGkknP99XD7VsNhXl3XYKCB-_chTAanns7OgzuYB7xM6AdIKLWmEB-nzic&_nc_zt=23&_nc_ht=scontent.fmnl30-2.fna&_nc_gid=uVZEFk8E4nOPB_mokfTJ8g&oh=00_AYGuP-9DWKYAUHuaRZyrBeyvk_xzDeJw4rNSfJqEW8jPzg&oe=67E8914C'); }
+#draw-slider-2 { background-image: url('https://scontent.fmnl30-3.fna.fbcdn.net/v/t39.30808-6/480668459_1065002812333242_1351264187518166147_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeH0G1sHF8vhyPF6UKMy0_xZvi95OckyB1m-L3k5yTIHWSd72hOKqmsMZFitmjoyiYadbBG08V2hP4fOBNXR1Opg&_nc_ohc=YLH_-U92JXQQ7kNvgFJ68vP&_nc_oc=Admz_NQ_jVH9i6EQPn-KmJ7xpwIv98PSBqW55-TUeG_j_4hCM86dZ_-lqlXZzNpvibI&_nc_zt=23&_nc_ht=scontent.fmnl30-3.fna&_nc_gid=r1e7QbrEF44-hUMrgoHLWA&oh=00_AYGV5c2oedC3ZRHhOiWvN_BJC0rQE9PT_GWGwvwASL1rBw&oe=67E8B34B'); }
+#draw-slider-3 { background-image: url('https://scontent.fmnl30-2.fna.fbcdn.net/v/t39.30808-6/481147467_1065003008999889_854209254581203965_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeGA7-ofCxf7aOjVSaC3aEAtUJgK9CVka4BQmAr0JWRrgC3FPMjoZHEBAuAOrUAm6qbYNmSRSXpqSYpIidW933Ak&_nc_ohc=fzvKkZVezb8Q7kNvgF7enx-&_nc_oc=AdlHgg0PdzlhmkisOh8p1mfEnplsqzsTnhUtqtEl4x3lUZckduvMvse8yNRA2hoqzH8&_nc_zt=23&_nc_ht=scontent.fmnl30-2.fna&_nc_gid=4EoW8IYjY6pydZvEelzxsA&oh=00_AYGrJ0VU9K33Ufs77s6CHh0OyRrwJllXOyhJ_2QX5uY5vw&oe=67E8A865'); }
+#draw-slider-4 { background-image: url('https://scontent.fmnl30-3.fna.fbcdn.net/v/t39.30808-6/480773681_1065003022333221_2991991893136255636_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeGB4qHXsJnVrEM62xsNdMqxRXzRSsI8XvtFfNFKwjxe-6SL_p1KsOkXzZbXXmlwhcbPFNKWLw1VYWLeB82Koc0D&_nc_ohc=5PEE05zJMiAQ7kNvgFCoYL2&_nc_oc=AdkoZwCTEOjTXd1yldukriWDiB1qPzvscquR7w8UmE16K_PlqbaPchZf3I4Gs9lQCuQ&_nc_zt=23&_nc_ht=scontent.fmnl30-3.fna&_nc_gid=m9hK-lwngC8fK6nLwCgAFQ&oh=00_AYEsX_T9mGICts38xJrD0Ko8C93RW_QAOXJ9DA7asjL_sQ&oe=67E896F1'); }
+
+@media (max-width: 576px){
+
+    .facilities-header{
+        font-size: 45px;
+    }
+}

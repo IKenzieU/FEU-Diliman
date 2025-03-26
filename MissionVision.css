@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&display=swap');
+
+body{
+    background-color: white;
+}
+
+header{
+    background-color: #0B3612;
+}
+
+.title{
+    padding: 5%;
+    margin-top: -2px;
+    background-color: green;
+    background-image: url("https://feudiliman.edu.ph/feudiliman/assets/img/campus_life/ialap_header_photo.jpg");
+    background-size: cover;
+    background-blend-mode: multiply;
+    filter: grayscale(50%);
+    h1{
+        font-size: 60px;
+        text-align: center;
+        font-weight: bold;
+        color: white;
+    }
+
+}
+
+.row{
+    margin: 20px 0;
+    padding: 20px 0;
+    align-items: center;
+    
+}
+
+.col-4{
+    padding: 20px 40px;
+    img{
+        width: 300px;
+        margin: 0 90px;
+    }
+}
+
+
+.col-6:nth-child(2), .col-6:nth-child(5) {
+    background-color: #0B3612;
+    color:#bde0bd;
+    font-family: "Boldonse";
+    padding: 20px 40px;
+
+    h2{
+        font-size: 48px;
+    }
+
+    h1{
+        font-size: 80px;
+        text-decoration: underline;
+    }
+}
+
+
+footer{
+    background-color: #0B3612;
+
+    li, h1, p{ 
+        color: #bde0bd;
+    }
+
+    li a{
+        color:#bde0bd;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 1024px){
+    .col-4{
+        padding: 20px 40px;
+        img{
+            width: 300px;
+            margin: 0;
+        }
+    }
+}
+
+@media (max-width: 576px){
+    .row{
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+    .title{
+        h1{
+            font-size: 45px;
+        }
+    }
+
+    .col-12{
+        img{
+            margin: 20px 60px;
+            width: 250px;
+        }
+
+        h3{
+            font-size: larger;
+            text-align: center;
+        }
+    }
+    
+    .col-12:nth-child(1), .col-12:nth-child(4){
+        margin-top: 20px;
+        background-color: #0B3612;
+        color:#bde0bd;
+        font-family: "Boldonse";
+        padding: 20px 20px;
+
+        h2{
+            font-size: 40px;
+        }
+    
+        h1{
+            text-align: center;
+            font-size: 67px;
+            text-decoration: underline;
+        }
+    }
+}
