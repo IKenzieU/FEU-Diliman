@@ -27,7 +27,7 @@ header{
 #ques{
     width:30%;
     height: auto;
-}
+} 
 
 .contact-info{
     background-color: white;
@@ -93,4 +93,29 @@ footer{
             font-size: 14px;
         }
     }
+}
+
+@media (max-width: 576px){
+    .title{
+        h1{
+            font-size: 35px;
+        }
+    }
+
+    #ques{
+        display: none;
+    }
+
+    iframe{
+        width: 310px;
+    }
+
+    .col-md-4{
+        padding-bottom: 15px;
+    }
+
+    .row{
+        --bs-gutter-x: 0;
+    }
+
 }
